@@ -74,18 +74,6 @@ A local-first alternative to Speechify that transforms any PDF into an audiobook
 
 ---
 
-## About
-
-These projects represent different aspects of my approach to building:
-
-- **Nodrithm Dev Simulator** shows systems thinking and infrastructure design for validating hardware products without physical devices
-- **VoiceKeyboard** demonstrates solving real interaction problems with production-quality Android architecture and system-wide accessibility
-- **VoiceRead** focuses on building privacy-first alternatives to expensive SaaS products, making accessibility tools available to everyone
-
-All three are available on GitHub, actively maintained, and ready to use.
-
----
-
 **Contact:** [santhoshj296@gmail.com](mailto:santhoshj296@gmail.com)  
 **LinkedIn:** [linkedin.com/in/santhoshj001](https://www.linkedin.com/in/santhoshj001)  
 **GitHub:** [github.com/santhoshj001](https://github.com/santhoshj001)
