@@ -23,14 +23,24 @@ Built to validate the Nodrithm Labs energy monitoring platform without waiting f
 
 ## 🎤 VoiceKeyboard
 
-**Voice-to-text input solution**
+**Android app with persistent floating bubble for speech-to-text transcription**
 
-A practical tool for converting voice input to text, making typing faster and more accessible.
+A production-ready Android app that provides system-wide voice input capability. The floating bubble interface makes voice transcription accessible from any app on the device, eliminating the need to switch contexts.
 
 **What it does:**
-- Voice-based text input
-- Real-time speech-to-text conversion
-- Clean, focused interface
+- Persistent floating bubble accessible across all apps
+- Real-time speech-to-text powered by Moonshine STT engine
+- Automatic clipboard integration for seamless text pasting
+- Optional accessibility service for direct text injection
+- Smart auto-collapse after silence timeout
+
+**Key Features:**
+- Works system-wide, not just within the app
+- On-device transcription (no cloud dependency)
+- Clean MVVM architecture with 4 modules
+- Built for Android 15+ with modern Jetpack Compose UI
+
+**Tech:** Kotlin, Jetpack Compose, Moonshine STT, Koin DI, MVVM Clean Architecture
 
 **Repository:** [voicekeyboard](https://github.com/santhoshj001/voicekeyboard)
 
@@ -55,9 +65,9 @@ Converts written content into spoken audio, making content consumption more flex
 
 These projects represent different aspects of my approach to building:
 
-- **Nodrithm Dev Simulator** shows systems thinking and infrastructure design
-- **VoiceKeyboard** demonstrates solving input efficiency problems
-- **VoiceRead** focuses on accessibility and alternative interfaces
+- **Nodrithm Dev Simulator** shows systems thinking and infrastructure design for validating hardware products without physical devices
+- **VoiceKeyboard** demonstrates solving real interaction problems with production-quality Android architecture and system-wide accessibility
+- **VoiceRead** focuses on accessibility and alternative content consumption interfaces
 
 All three are available on GitHub and actively maintained.
 
