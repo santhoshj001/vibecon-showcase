@@ -48,14 +48,27 @@ A production-ready Android app that provides system-wide voice input capability.
 
 ## 📖 VoiceRead
 
-**Text-to-speech reading assistant**
+**Self-hosted PDF-to-audiobook app with natural AI voices**
 
-Converts written content into spoken audio, making content consumption more flexible.
+A local-first alternative to Speechify that transforms any PDF into an audiobook with natural Indian English voices. Built for accessibility and privacy, everything stays on your machine with no cloud uploads or tracking.
 
 **What it does:**
-- Text-to-speech conversion
-- Hands-free content consumption
-- Accessibility-focused design
+- Upload any PDF and listen to it like an audiobook
+- Real-time sentence highlighting with auto-scroll
+- Choose from ~40 natural voices powered by Sarvam AI
+- Pause, resume, and pick up exactly where you left off
+- Smart incremental audio generation for instant playback
+- Local caching eliminates redundant API calls
+
+**Key Features:**
+- **Privacy-first:** All documents and audio cached locally
+- **Document library:** Upload, organize, search, and manage PDFs
+- **Smart playback:** Audio generated in chunks, first sentence plays within seconds
+- **Speed control:** 0.75x to 2x playback speeds
+- **Self-hosted:** Free alternative to subscription services
+- **Docker-ready:** Deploy with one command
+
+**Tech:** Next.js 16, React 19, Fastify 5, SQLite, Drizzle ORM, Sarvam AI TTS, Docker
 
 **Repository:** [VoiceRead](https://github.com/santhoshj001/VoiceRead)
 
@@ -67,9 +80,9 @@ These projects represent different aspects of my approach to building:
 
 - **Nodrithm Dev Simulator** shows systems thinking and infrastructure design for validating hardware products without physical devices
 - **VoiceKeyboard** demonstrates solving real interaction problems with production-quality Android architecture and system-wide accessibility
-- **VoiceRead** focuses on accessibility and alternative content consumption interfaces
+- **VoiceRead** focuses on building privacy-first alternatives to expensive SaaS products, making accessibility tools available to everyone
 
-All three are available on GitHub and actively maintained.
+All three are available on GitHub, actively maintained, and ready to use.
 
 ---
 
